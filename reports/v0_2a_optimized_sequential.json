@@ -1,0 +1,361 @@
+{
+  "phase": "optimized",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "warmup_s": 0.14940511999998307,
+  "benchmark": [
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.00962980700001026,
+      "p95_s": 0.010349137100070039,
+      "total_s": 0.06868788600036169,
+      "median_s_per_ray": 0.00962980700001026,
+      "samples_s": [
+        0.00962980700001026,
+        0.009577278000051592,
+        0.010030784000036874,
+        0.010351799000090978,
+        0.009372118000101182,
+        0.009383174000049621,
+        0.01034292600002118
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.05964321399983419,
+      "p95_s": 0.06368274489998385,
+      "total_s": 0.4235755759998483,
+      "median_s_per_ray": 0.029821606999917094,
+      "samples_s": [
+        0.06398145699995439,
+        0.06298575000005258,
+        0.059368078000034075,
+        0.05964321399983419,
+        0.06123454099997616,
+        0.05845312399992508,
+        0.057909412000071825
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.15207750300010048,
+      "p95_s": 0.16016930409982705,
+      "total_s": 1.0606062599997585,
+      "median_s_per_ray": 0.030415500600020094,
+      "samples_s": [
+        0.15219141500006117,
+        0.15179689799992957,
+        0.15207750300010048,
+        0.16169211699980224,
+        0.15661607399988497,
+        0.14015633899998647,
+        0.14607591399999365
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.3138323219998256,
+      "p95_s": 0.32286089240003546,
+      "total_s": 2.1933260900000278,
+      "median_s_per_ray": 0.031383232199982555,
+      "samples_s": [
+        0.3185612580000452,
+        0.31997229200010224,
+        0.3138323219998256,
+        0.3098088930000813,
+        0.32409886400000687,
+        0.30642323699998997,
+        0.3006292239999766
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.00821561400016435,
+      "p95_s": 0.009403131500152994,
+      "total_s": 0.058876048000229275,
+      "median_s_per_ray": 0.00821561400016435,
+      "samples_s": [
+        0.008107569999992847,
+        0.008010132999970665,
+        0.00792123799988076,
+        0.008488375000069937,
+        0.00821561400016435,
+        0.008337947999962125,
+        0.009795170000188591
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.054940389999956096,
+      "p95_s": 0.0563321071000928,
+      "total_s": 0.380171177000193,
+      "median_s_per_ray": 0.027470194999978048,
+      "samples_s": [
+        0.055004327000006015,
+        0.052215733999901204,
+        0.05648753800005579,
+        0.055969435000179146,
+        0.053376688000071226,
+        0.054940389999956096,
+        0.052177065000023504
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.11787202400000751,
+      "p95_s": 0.12338070730004347,
+      "total_s": 0.8328079049999815,
+      "median_s_per_ray": 0.023574404800001503,
+      "samples_s": [
+        0.11603933499986852,
+        0.1175847800000156,
+        0.11596103300007599,
+        0.12090596300004108,
+        0.11787202400000751,
+        0.12000345799992829,
+        0.12444131200004449
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.23589015900006416,
+      "p95_s": 0.24759957299991128,
+      "total_s": 1.6307517179996012,
+      "median_s_per_ray": 0.023589015900006415,
+      "samples_s": [
+        0.22478139299983013,
+        0.25131760799990843,
+        0.23892415799991795,
+        0.23832799699994212,
+        0.23589015900006416,
+        0.22526107799990314,
+        0.21624932500003524
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    }
+  ],
+  "profile": {
+    "five_ray_statuses": [
+      "ESCAPED",
+      "SINGULARITY_APPROACH",
+      "ESCAPED",
+      "ESCAPED",
+      "ESCAPED"
+    ],
+    "functions": [
+      {
+        "file": "integration.py",
+        "line": 127,
+        "function": "integrate_ray",
+        "calls": 5,
+        "self_s": 0.005646792,
+        "cumulative_s": 0.294048273
+      },
+      {
+        "file": "rk.py",
+        "line": 111,
+        "function": "_step_impl",
+        "calls": 289,
+        "self_s": 0.003615529,
+        "cumulative_s": 0.13702832
+      },
+      {
+        "file": "rk.py",
+        "line": 14,
+        "function": "rk_step",
+        "calls": 401,
+        "self_s": 0.017831242,
+        "cumulative_s": 0.127114163
+      },
+      {
+        "file": "integration.py",
+        "line": 185,
+        "function": "rhs",
+        "calls": 5697,
+        "self_s": 0.006070903000000001,
+        "cumulative_s": 0.12401138700000001
+      },
+      {
+        "file": "integration.py",
+        "line": 256,
+        "function": "measure",
+        "calls": 2833,
+        "self_s": 0.0024294800000000004,
+        "cumulative_s": 0.042055135
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 127,
+        "function": "domain",
+        "calls": 2294,
+        "self_s": 0.008938424,
+        "cumulative_s": 0.041164862
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 89,
+        "function": "radial_coordinate",
+        "calls": 5718,
+        "self_s": 0.011989057000000001,
+        "cumulative_s": 0.037646612
+      },
+      {
+        "file": "integration.py",
+        "line": 192,
+        "function": "record",
+        "calls": 306,
+        "self_s": 0.003374039,
+        "cumulative_s": 0.035458641
+      },
+      {
+        "file": "integration.py",
+        "line": 278,
+        "function": "radial_speed",
+        "calls": 474,
+        "self_s": 0.0016930080000000002,
+        "cumulative_s": 0.01698463
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 69,
+        "function": "fast_hamiltonian_rhs",
+        "calls": 6171,
+        "self_s": 0.013916913000000001,
+        "cumulative_s": 0.015756373
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 314,
+        "function": "radial_coordinate_gradient",
+        "calls": 475,
+        "self_s": 0.0017759310000000001,
+        "cumulative_s": 0.013681079
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 198,
+        "function": "inverse_metric",
+        "calls": 312,
+        "self_s": 0.001763821,
+        "cumulative_s": 0.012028168
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 165,
+        "function": "kerr_schild_fields",
+        "calls": 323,
+        "self_s": 0.001131484,
+        "cumulative_s": 0.008972399
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 353,
+        "function": "chart_transition_surface",
+        "calls": 289,
+        "self_s": 0.000778908,
+        "cumulative_s": 0.001724536
+      },
+      {
+        "file": "initial_conditions.py",
+        "line": 69,
+        "function": "eulerian_frame",
+        "calls": 5,
+        "self_s": 0.00022393100000000002,
+        "cumulative_s": 0.001049087
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 194,
+        "function": "metric",
+        "calls": 11,
+        "self_s": 3.3194e-05,
+        "cumulative_s": 0.00040869900000000005
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 375,
+        "function": "horizon_chart_handoff",
+        "calls": 1,
+        "self_s": 4.8091000000000004e-05,
+        "cumulative_s": 0.000195496
+      }
+    ]
+  }
+}

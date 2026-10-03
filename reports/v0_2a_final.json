@@ -1,0 +1,1313 @@
+{
+  "phase": "optimized",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "warmup_s": 0.14830922900000587,
+  "benchmark": [
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.008869559000231675,
+      "p95_s": 0.00965127569984361,
+      "total_s": 0.06273453200037693,
+      "median_s_per_ray": 0.008869559000231675,
+      "samples_s": [
+        0.008830269000100088,
+        0.009452230000078998,
+        0.00834985300025437,
+        0.008869559000231675,
+        0.008251112999914767,
+        0.009244927000054304,
+        0.009736580999742728
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.055784496999876865,
+      "p95_s": 0.061578032299985354,
+      "total_s": 0.39847857899985684,
+      "median_s_per_ray": 0.027892248499938432,
+      "samples_s": [
+        0.055453746000239335,
+        0.056474260999948456,
+        0.05383066200010944,
+        0.055784496999876865,
+        0.06002656000009665,
+        0.054665903999648435,
+        0.06224294899993765
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.14193041900034586,
+      "p95_s": 0.14807744139980059,
+      "total_s": 0.99987940300025,
+      "median_s_per_ray": 0.028386083800069174,
+      "samples_s": [
+        0.14193041900034586,
+        0.14409576500020194,
+        0.14000869100027558,
+        0.14001969799983272,
+        0.1393202399999609,
+        0.14518942899985632,
+        0.1493151609997767
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 0.9999,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.3057731919998332,
+      "p95_s": 0.3079040837998946,
+      "total_s": 2.135013963999427,
+      "median_s_per_ray": 0.03057731919998332,
+      "samples_s": [
+        0.30719362799982264,
+        0.3081324899999345,
+        0.3037991709998096,
+        0.3057731919998332,
+        0.29771371300012106,
+        0.3073711359998015,
+        0.30503063400010433
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.008118564000142214,
+      "p95_s": 0.008635220300038781,
+      "total_s": 0.05769334600063303,
+      "median_s_per_ray": 0.008118564000142214,
+      "samples_s": [
+        0.00855283100008819,
+        0.008068878999893059,
+        0.008047335999890493,
+        0.008145555000282911,
+        0.008118564000142214,
+        0.008089651000318554,
+        0.008670530000017607
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.05173814499994478,
+      "p95_s": 0.053696501700096634,
+      "total_s": 0.36260620200027915,
+      "median_s_per_ray": 0.02586907249997239,
+      "samples_s": [
+        0.05105282900012753,
+        0.05275680699969598,
+        0.051452162000259705,
+        0.05409922800026834,
+        0.04962319500009471,
+        0.051883835999888106,
+        0.05173814499994478
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.11574187999985952,
+      "p95_s": 0.11926802310017592,
+      "total_s": 0.8113134780001019,
+      "median_s_per_ray": 0.023148375999971903,
+      "samples_s": [
+        0.11838297600024816,
+        0.1169026960001247,
+        0.11477321899974413,
+        0.11964732900014496,
+        0.11212582799998927,
+        0.11373954999999114,
+        0.11574187999985952
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "compiled",
+      "spin": 1.2,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.23518088499986334,
+      "p95_s": 0.26467364630011614,
+      "total_s": 1.6682010239996998,
+      "median_s_per_ray": 0.023518088499986333,
+      "samples_s": [
+        0.20911746699994183,
+        0.21642833999976574,
+        0.23198197800002163,
+        0.2536409959998309,
+        0.25244943300003797,
+        0.2694019250002384,
+        0.23518088499986334
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    }
+  ],
+  "profile": {
+    "five_ray_statuses": [
+      "ESCAPED",
+      "SINGULARITY_APPROACH",
+      "ESCAPED",
+      "ESCAPED",
+      "ESCAPED"
+    ],
+    "functions": [
+      {
+        "file": "integration.py",
+        "line": 132,
+        "function": "integrate_ray",
+        "calls": 5,
+        "self_s": 0.006008602,
+        "cumulative_s": 0.34083483800000003
+      },
+      {
+        "file": "rk.py",
+        "line": 111,
+        "function": "_step_impl",
+        "calls": 289,
+        "self_s": 0.004200827,
+        "cumulative_s": 0.171880472
+      },
+      {
+        "file": "rk.py",
+        "line": 14,
+        "function": "rk_step",
+        "calls": 401,
+        "self_s": 0.019359166,
+        "cumulative_s": 0.16063532
+      },
+      {
+        "file": "integration.py",
+        "line": 193,
+        "function": "rhs",
+        "calls": 5697,
+        "self_s": 0.006883055000000001,
+        "cumulative_s": 0.15725117200000002
+      },
+      {
+        "file": "integration.py",
+        "line": 266,
+        "function": "measure",
+        "calls": 2833,
+        "self_s": 0.0024898620000000002,
+        "cumulative_s": 0.042564842000000006
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 127,
+        "function": "domain",
+        "calls": 2294,
+        "self_s": 0.009358819,
+        "cumulative_s": 0.0420456
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 89,
+        "function": "radial_coordinate",
+        "calls": 5718,
+        "self_s": 0.012016274,
+        "cumulative_s": 0.03886603
+      },
+      {
+        "file": "integration.py",
+        "line": 202,
+        "function": "record",
+        "calls": 306,
+        "self_s": 0.003929241,
+        "cumulative_s": 0.038864446000000004
+      },
+      {
+        "file": "integration.py",
+        "line": 288,
+        "function": "radial_speed",
+        "calls": 474,
+        "self_s": 0.0015226220000000002,
+        "cumulative_s": 0.017330283000000002
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 69,
+        "function": "fast_hamiltonian_rhs",
+        "calls": 6171,
+        "self_s": 0.015017556000000001,
+        "cumulative_s": 0.016973417
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 314,
+        "function": "radial_coordinate_gradient",
+        "calls": 475,
+        "self_s": 0.00205345,
+        "cumulative_s": 0.014085028000000001
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 198,
+        "function": "inverse_metric",
+        "calls": 312,
+        "self_s": 0.001974272,
+        "cumulative_s": 0.012946128000000001
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 165,
+        "function": "kerr_schild_fields",
+        "calls": 323,
+        "self_s": 0.001157114,
+        "cumulative_s": 0.009396331
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 353,
+        "function": "chart_transition_surface",
+        "calls": 289,
+        "self_s": 0.000792571,
+        "cumulative_s": 0.001827082
+      },
+      {
+        "file": "initial_conditions.py",
+        "line": 69,
+        "function": "eulerian_frame",
+        "calls": 5,
+        "self_s": 0.00018039,
+        "cumulative_s": 0.001090318
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 194,
+        "function": "metric",
+        "calls": 11,
+        "self_s": 3.0762e-05,
+        "cumulative_s": 0.00038779600000000004
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 375,
+        "function": "horizon_chart_handoff",
+        "calls": 1,
+        "self_s": 4.9713e-05,
+        "cumulative_s": 0.000203908
+      }
+    ]
+  },
+  "single_ray_difficulty": [
+    {
+      "ray": "easy exterior",
+      "spin": 0.9999,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "median_s": 0.009144948000084696,
+      "p95_s": 0.011588318299845923,
+      "samples_s": [
+        0.010020613000051526,
+        0.012260191999757808,
+        0.008856260999891674,
+        0.00928464900016479,
+        0.008524217999820394,
+        0.009144948000084696,
+        0.008630250000351225
+      ]
+    },
+    {
+      "ray": "inclined inner return",
+      "spin": 0.9999,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "median_s": 0.03855395000027784,
+      "p95_s": 0.044628581900087734,
+      "samples_s": [
+        0.034718235000127606,
+        0.038889578000180336,
+        0.03778594699997484,
+        0.04670376200010651,
+        0.03978649500004394,
+        0.037905868999587256,
+        0.03855395000027784
+      ]
+    },
+    {
+      "ray": "capture inner horizon",
+      "spin": 0.95,
+      "status": "SINGULARITY_APPROACH",
+      "reliability": "COMPLETE",
+      "median_s": 0.05635544699998718,
+      "p95_s": 0.07584049359993514,
+      "samples_s": [
+        0.07147230599957766,
+        0.07771257400008835,
+        0.056746609000128956,
+        0.054880435000086436,
+        0.05567393500041362,
+        0.054900425000141695,
+        0.05635544699998718
+      ]
+    },
+    {
+      "ray": "super-extremal double disk",
+      "spin": 1.2,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "median_s": 0.04470719100027054,
+      "p95_s": 0.048193555500211004,
+      "samples_s": [
+        0.044525725999847054,
+        0.04888637400017615,
+        0.04486747300006755,
+        0.04470719100027054,
+        0.04657697900029234,
+        0.04382843000030334,
+        0.04311888699976407
+      ]
+    }
+  ],
+  "worker_count": 4,
+  "worker_startup_s": 0.8437975449996884,
+  "parallel_benchmark": [
+    {
+      "backend": "process-4",
+      "spin": 0.9999,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.014117522000105964,
+      "p95_s": 0.017203600900211315,
+      "total_s": 0.10642482200046288,
+      "median_s_per_ray": 0.014117522000105964,
+      "samples_s": [
+        0.016955257000063284,
+        0.013604616000066017,
+        0.013895055999910255,
+        0.014110281999819563,
+        0.014117522000105964,
+        0.017310034000274754,
+        0.016432055000223045
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 0.9999,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.06023358600032225,
+      "p95_s": 0.08576277890033451,
+      "total_s": 0.46106916700136935,
+      "median_s_per_ray": 0.030116793000161124,
+      "samples_s": [
+        0.060080243999891536,
+        0.09098417600034736,
+        0.05574059600030523,
+        0.06023358600032225,
+        0.05960089800009882,
+        0.06085014800009958,
+        0.07357951900030457
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 0.9999,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.0875478509997265,
+      "p95_s": 0.09107496330002504,
+      "total_s": 0.5980549309997514,
+      "median_s_per_ray": 0.017509570199945302,
+      "samples_s": [
+        0.09150399300006029,
+        0.09007389399994281,
+        0.09004010199987533,
+        0.08197369299978163,
+        0.08355651200008651,
+        0.07335888600027829,
+        0.0875478509997265
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 0.9999,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.14988661600000341,
+      "p95_s": 0.18413616630000432,
+      "total_s": 1.0909095609999895,
+      "median_s_per_ray": 0.014988661600000341,
+      "samples_s": [
+        0.12987586200006263,
+        0.17092436699977043,
+        0.18979836600010458,
+        0.14988661600000341,
+        0.1444237850000718,
+        0.16286345199978314,
+        0.1431371130001935
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 1.2,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.010711048999837658,
+      "p95_s": 0.011724660599975322,
+      "total_s": 0.07318214899942177,
+      "median_s_per_ray": 0.010711048999837658,
+      "samples_s": [
+        0.012019847999908961,
+        0.009594478000053641,
+        0.009645915999954013,
+        0.009423368999705417,
+        0.010751598999831913,
+        0.011035890000130166,
+        0.010711048999837658
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 1.2,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.050951700000041455,
+      "p95_s": 0.05404754819983282,
+      "total_s": 0.3592651560006743,
+      "median_s_per_ray": 0.025475850000020728,
+      "samples_s": [
+        0.050951700000041455,
+        0.04925289800030441,
+        0.04984926600036488,
+        0.05184120600006281,
+        0.05486163599971405,
+        0.052148010000109934,
+        0.05036044000007678
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 1.2,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.05129221500010317,
+      "p95_s": 0.06987365719978696,
+      "total_s": 0.3754365350000626,
+      "median_s_per_ray": 0.010258443000020634,
+      "samples_s": [
+        0.05129221500010317,
+        0.04619984300006763,
+        0.07554560599965043,
+        0.056639110000105575,
+        0.046044744000028004,
+        0.05287619099999574,
+        0.04683882600011202
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "process-4",
+      "spin": 1.2,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 0.10832456599973739,
+      "p95_s": 0.11749756730005173,
+      "total_s": 0.7289428720000615,
+      "median_s_per_ray": 0.010832456599973738,
+      "samples_s": [
+        0.0828344440001274,
+        0.09427220699990357,
+        0.10210699100025522,
+        0.10832456599973739,
+        0.11324450099982641,
+        0.11932031000014831,
+        0.10883985300006316
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    }
+  ],
+  "physics_equivalence": {
+    "cases": 49,
+    "all_matched": true,
+    "max_affine_delta": 2.206075322419565e-10,
+    "max_terminal_position_delta": 6.7850440821359825e-09,
+    "rows": [
+      {
+        "spin": 0.0,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.552713678800501e-14,
+        "max_terminal_position_difference": 3.6637359812630166e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.0,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 1.734723475976807e-18,
+        "matches": true
+      },
+      {
+        "spin": 0.0,
+        "ray_id": "ray-0002",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 4.440892098500626e-16,
+        "max_terminal_position_difference": 2.364141868382852e-13,
+        "matches": true
+      },
+      {
+        "spin": 0.0,
+        "ray_id": "ray-0003",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.220446049250313e-15,
+        "max_terminal_position_difference": 3.0184188481996443e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.0,
+        "ray_id": "ray-0004",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 4.440892098500626e-16,
+        "max_terminal_position_difference": 1.7763568394002505e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.7,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 8.881784197001252e-15,
+        "max_terminal_position_difference": 9.992007221626409e-16,
+        "matches": true
+      },
+      {
+        "spin": 0.7,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 8.881784197001252e-16,
+        "max_terminal_position_difference": 4.496403249731884e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.7,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.1316282072803006e-14,
+        "max_terminal_position_difference": 4.884981308350689e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.7,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 7.28583859910259e-16,
+        "matches": true
+      },
+      {
+        "spin": 0.7,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.1546319456101628e-14,
+        "max_terminal_position_difference": 6.7850440821359825e-09,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.6645352591003757e-14,
+        "max_terminal_position_difference": 3.2751579226442118e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 1.4876988529977098e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 7.105427357601002e-15,
+        "max_terminal_position_difference": 3.1530333899354446e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 7.105427357601002e-15,
+        "max_terminal_position_difference": 1.1379786002407855e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 8.881784197001252e-15,
+        "max_terminal_position_difference": 5.218048215738236e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0005",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-14,
+        "max_terminal_position_difference": 1.7319479184152442e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.95,
+        "ray_id": "ray-0006",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.552713678800501e-14,
+        "max_terminal_position_difference": 4.218847493575595e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.730349362740526e-14,
+        "max_terminal_position_difference": 5.218048215738236e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 0.0,
+        "max_terminal_position_difference": 1.3156142841808105e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 0.0,
+        "max_terminal_position_difference": 4.440892098500626e-15,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 5.329070518200751e-15,
+        "max_terminal_position_difference": 4.579669976578771e-16,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.4210854715202004e-14,
+        "max_terminal_position_difference": 1.3489209749195652e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0005",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.3092638912203256e-13,
+        "max_terminal_position_difference": 7.194245199571014e-14,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0006",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.206075322419565e-10,
+        "max_terminal_position_difference": 6.85619561124895e-10,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0007",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 5.329070518200751e-15,
+        "max_terminal_position_difference": 0.0,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0008",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 7.72804042981079e-12,
+        "max_terminal_position_difference": 1.2258194459491278e-11,
+        "matches": true
+      },
+      {
+        "spin": 0.9999,
+        "ray_id": "ray-0009",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-14,
+        "max_terminal_position_difference": 3.1086244689504383e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.0,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 5.329070518200751e-15,
+        "max_terminal_position_difference": 1.3877787807814457e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.0,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 4.440892098500626e-16,
+        "max_terminal_position_difference": 5.551115123125783e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.0,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 0.0,
+        "max_terminal_position_difference": 1.7763568394002505e-14,
+        "matches": true
+      },
+      {
+        "spin": 1.0,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 8.881784197001252e-16,
+        "matches": true
+      },
+      {
+        "spin": 1.0,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 0.0,
+        "max_terminal_position_difference": 9.43689570931383e-16,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.1316282072803006e-14,
+        "max_terminal_position_difference": 2.4980018054066022e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 4.440892098500626e-16,
+        "max_terminal_position_difference": 1.3711254354120683e-14,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 5.329070518200751e-15,
+        "max_terminal_position_difference": 3.9968028886505635e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 1.7763568394002505e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 1.339206523454095e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0005",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.552713678800501e-14,
+        "max_terminal_position_difference": 8.43769498715119e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.05,
+        "ray_id": "ray-0006",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 7.922551503725117e-13,
+        "max_terminal_position_difference": 3.6273206660553114e-12,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0000",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 7.105427357601002e-15,
+        "max_terminal_position_difference": 6.661338147750939e-16,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0001",
+        "reference_status": "SINGULARITY_APPROACH",
+        "compiled_status": "SINGULARITY_APPROACH",
+        "parallel_status": "SINGULARITY_APPROACH",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 2.220446049250313e-15,
+        "max_terminal_position_difference": 6.000755448098971e-14,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0002",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.7763568394002505e-15,
+        "max_terminal_position_difference": 7.771561172376096e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0003",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.2434497875801753e-14,
+        "max_terminal_position_difference": 6.938893903907228e-16,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0004",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 5.329070518200751e-15,
+        "max_terminal_position_difference": 1.2212453270876722e-15,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0005",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 1.8118839761882555e-13,
+        "max_terminal_position_difference": 5.595524044110789e-14,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0006",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 6.394884621840902e-14,
+        "max_terminal_position_difference": 3.730349362740526e-14,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0007",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 0.0,
+        "max_terminal_position_difference": 8.881784197001252e-16,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0008",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.907985046680551e-14,
+        "max_terminal_position_difference": 1.1213252548714081e-13,
+        "matches": true
+      },
+      {
+        "spin": 1.2,
+        "ray_id": "ray-0009",
+        "reference_status": "ESCAPED",
+        "compiled_status": "ESCAPED",
+        "parallel_status": "ESCAPED",
+        "reference_trust": "COMPLETE",
+        "compiled_trust": "COMPLETE",
+        "parallel_trust": "COMPLETE",
+        "max_affine_difference": 3.907985046680551e-14,
+        "max_terminal_position_difference": 6.661338147750939e-15,
+        "matches": true
+      }
+    ]
+  },
+  "latest_request_wins": {
+    "request_ids": [
+      1,
+      2,
+      3
+    ],
+    "status": [
+      "SUPERSEDED",
+      "SUPERSEDED",
+      "DONE"
+    ],
+    "latest_status": "DONE",
+    "latest_ray_id": "main",
+    "stale_published": false
+  },
+  "regression": {
+    "test_count": 67,
+    "passed": true,
+    "command": [
+      "/workspace/scratch/f2d2a079d7a4/.v0_2a_numba_env/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-q"
+    ],
+    "output": "----------------------------------------------------------------------\nRan 67 tests in 6.980s\n\nOK\n"
+  }
+}

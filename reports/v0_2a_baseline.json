@@ -1,0 +1,368 @@
+{
+  "phase": "baseline",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "benchmark": [
+    {
+      "backend": "sequential",
+      "spin": 0.9999,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.05422983599999043,
+      "p95_s": 0.06473401120001654,
+      "total_s": 0.39054685000007794,
+      "median_s_per_ray": 0.05422983599999043,
+      "samples_s": [
+        0.053569237000033354,
+        0.05422983599999043,
+        0.06726196900001469,
+        0.05883544300002086,
+        0.051970930000038607,
+        0.0572767250000652,
+        0.047402709999914805
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 0.9999,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.34176445399998556,
+      "p95_s": 0.3739845217999573,
+      "total_s": 2.4081509409998034,
+      "median_s_per_ray": 0.17088222699999278,
+      "samples_s": [
+        0.3843425269999443,
+        0.3498158429999876,
+        0.34090866899998673,
+        0.34176445399998556,
+        0.3239228479999383,
+        0.3430422850000241,
+        0.32435431499993683
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 0.9999,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.8567601569999397,
+      "p95_s": 0.8886150402000226,
+      "total_s": 5.96208224399993,
+      "median_s_per_ray": 0.17135203139998795,
+      "samples_s": [
+        0.8195956880000494,
+        0.8133864860000131,
+        0.8148514519999708,
+        0.8858468720000019,
+        0.8818401909999238,
+        0.8567601569999397,
+        0.8898013980000314
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 0.9999,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 1.6603645229999984,
+      "p95_s": 1.7942204485000843,
+      "total_s": 11.86066846000017,
+      "median_s_per_ray": 0.16603645229999983,
+      "samples_s": [
+        1.8081160480001017,
+        1.7617973830000437,
+        1.6363313489999882,
+        1.6487318790000245,
+        1.6907603610000024,
+        1.654566917000011,
+        1.6603645229999984
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 1.2,
+      "rays": 1,
+      "repeat": 7,
+      "median_s": 0.04262019800000871,
+      "p95_s": 0.043370862700010095,
+      "total_s": 0.2985154400000738,
+      "median_s_per_ray": 0.04262019800000871,
+      "samples_s": [
+        0.04193726500000139,
+        0.04250959100011187,
+        0.042489870999929735,
+        0.04263960700006919,
+        0.043684257999984766,
+        0.04262019800000871,
+        0.04263464999996813
+      ],
+      "statuses": [
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 1.2,
+      "rays": 2,
+      "repeat": 7,
+      "median_s": 0.3255541490000269,
+      "p95_s": 0.3338515413000209,
+      "total_s": 2.281447318000346,
+      "median_s_per_ray": 0.16277707450001344,
+      "samples_s": [
+        0.3255541490000269,
+        0.3294880790000434,
+        0.32346580000000813,
+        0.32107450200010135,
+        0.3143715130000828,
+        0.3334843780000938,
+        0.3340088969999897
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 1.2,
+      "rays": 5,
+      "repeat": 7,
+      "median_s": 0.7429432829999314,
+      "p95_s": 0.7925747246000242,
+      "total_s": 5.239803339999867,
+      "median_s_per_ray": 0.14858865659998627,
+      "samples_s": [
+        0.7162487690000034,
+        0.7610307589999366,
+        0.7291523909999569,
+        0.7367691209999521,
+        0.8060935670000617,
+        0.7429432829999314,
+        0.7475654500000246
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "backend": "sequential",
+      "spin": 1.2,
+      "rays": 10,
+      "repeat": 7,
+      "median_s": 1.3596597800000154,
+      "p95_s": 1.4156412345000262,
+      "total_s": 9.485154143999921,
+      "median_s_per_ray": 0.13596597800000154,
+      "samples_s": [
+        1.3596597800000154,
+        1.3149828009999283,
+        1.2939116009999907,
+        1.3884568849999823,
+        1.427291670000045,
+        1.3171579699999256,
+        1.3836934370000336
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    }
+  ],
+  "profile": {
+    "five_ray_statuses": [
+      "ESCAPED",
+      "SINGULARITY_APPROACH",
+      "ESCAPED",
+      "ESCAPED",
+      "ESCAPED"
+    ],
+    "functions": [
+      {
+        "file": "integration.py",
+        "line": 127,
+        "function": "integrate_ray",
+        "calls": 5,
+        "self_s": 0.008279578000000001,
+        "cumulative_s": 1.3746761170000001
+      },
+      {
+        "file": "integration.py",
+        "line": 185,
+        "function": "rhs",
+        "calls": 5697,
+        "self_s": 0.009178991000000001,
+        "cumulative_s": 1.0937944050000001
+      },
+      {
+        "file": "hamiltonian.py",
+        "line": 31,
+        "function": "null_geodesic_rhs",
+        "calls": 6171,
+        "self_s": 0.043125833,
+        "cumulative_s": 1.0425180710000002
+      },
+      {
+        "file": "rk.py",
+        "line": 111,
+        "function": "_step_impl",
+        "calls": 289,
+        "self_s": 0.0047114620000000005,
+        "cumulative_s": 0.9625659940000001
+      },
+      {
+        "file": "rk.py",
+        "line": 14,
+        "function": "rk_step",
+        "calls": 401,
+        "self_s": 0.023997259,
+        "cumulative_s": 0.9494010220000001
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 180,
+        "function": "inverse_metric_derivatives",
+        "calls": 6171,
+        "self_s": 0.225391737,
+        "cumulative_s": 0.70979135
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 104,
+        "function": "domain",
+        "calls": 20807,
+        "self_s": 0.08306606600000001,
+        "cumulative_s": 0.38000495900000003
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 142,
+        "function": "kerr_schild_fields",
+        "calls": 12665,
+        "self_s": 0.043730508,
+        "cumulative_s": 0.36747226600000005
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 175,
+        "function": "inverse_metric",
+        "calls": 6483,
+        "self_s": 0.028745323000000003,
+        "cumulative_s": 0.24387741400000001
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 66,
+        "function": "radial_coordinate",
+        "calls": 24234,
+        "self_s": 0.052616482000000006,
+        "cumulative_s": 0.161906288
+      },
+      {
+        "file": "integration.py",
+        "line": 275,
+        "function": "radial_speed",
+        "calls": 474,
+        "self_s": 0.001675517,
+        "cumulative_s": 0.099430128
+      },
+      {
+        "file": "integration.py",
+        "line": 253,
+        "function": "measure",
+        "calls": 2836,
+        "self_s": 0.002953185,
+        "cumulative_s": 0.08684780900000001
+      },
+      {
+        "file": "integration.py",
+        "line": 189,
+        "function": "record",
+        "calls": 306,
+        "self_s": 0.004183122,
+        "cumulative_s": 0.040553459
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 291,
+        "function": "radial_coordinate_gradient",
+        "calls": 475,
+        "self_s": 0.002072169,
+        "cumulative_s": 0.016785259
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 329,
+        "function": "chart_transition_surface",
+        "calls": 289,
+        "self_s": 0.0009086970000000001,
+        "cumulative_s": 0.002157537
+      },
+      {
+        "file": "initial_conditions.py",
+        "line": 69,
+        "function": "eulerian_frame",
+        "calls": 5,
+        "self_s": 0.00019507900000000002,
+        "cumulative_s": 0.001337403
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 171,
+        "function": "metric",
+        "calls": 11,
+        "self_s": 3.2776e-05,
+        "cumulative_s": 0.000417293
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 351,
+        "function": "horizon_chart_handoff",
+        "calls": 1,
+        "self_s": 4.7255e-05,
+        "cumulative_s": 0.000193673
+      }
+    ]
+  }
+}

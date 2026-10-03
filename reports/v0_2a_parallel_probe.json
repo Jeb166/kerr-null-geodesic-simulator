@@ -1,0 +1,574 @@
+{
+  "phase": "parallel-probe",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "warmup_s": 0.12518462800017005,
+  "worker_probe": [
+    {
+      "mode": "thread",
+      "workers": 2,
+      "startup_s": 0.0006748099999640544,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.2467133269999522,
+      "p95_s": 0.251775981800165,
+      "samples_s": [
+        0.2523384990001887,
+        0.2152015169999686,
+        0.2467133269999522
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 2,
+      "startup_s": 0.0006748099999640544,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.5047858170000836,
+      "p95_s": 0.570114203399885,
+      "samples_s": [
+        0.5773729129998628,
+        0.5047858170000836,
+        0.5040773420000733
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 2,
+      "startup_s": 0.0006748099999640544,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.1970849439999256,
+      "p95_s": 0.21404825560011886,
+      "samples_s": [
+        0.19473171499998898,
+        0.21593306800014034,
+        0.1970849439999256
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 2,
+      "startup_s": 0.0006748099999640544,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.3653684800001429,
+      "p95_s": 0.395009180799957,
+      "samples_s": [
+        0.3617225519999465,
+        0.3653684800001429,
+        0.39830259199993634
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 4,
+      "startup_s": 0.0006708939999953145,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.2954959209998833,
+      "p95_s": 0.30892075209990255,
+      "samples_s": [
+        0.28722117199981767,
+        0.2954959209998833,
+        0.31041239999990466
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 4,
+      "startup_s": 0.0006708939999953145,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.622131766999928,
+      "p95_s": 0.6448472755999546,
+      "samples_s": [
+        0.6473712209999576,
+        0.6194682889999967,
+        0.622131766999928
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 4,
+      "startup_s": 0.0006708939999953145,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.23745214200016562,
+      "p95_s": 0.24430382219995864,
+      "samples_s": [
+        0.24506511999993563,
+        0.23745214200016562,
+        0.23317450300010023
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 4,
+      "startup_s": 0.0006708939999953145,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.44871983400003046,
+      "p95_s": 0.45036622740003623,
+      "samples_s": [
+        0.42919226599997273,
+        0.45054916000003686,
+        0.44871983400003046
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 6,
+      "startup_s": 0.0010115400000358932,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.290968821999968,
+      "p95_s": 0.29249866989996465,
+      "samples_s": [
+        0.2842642819998673,
+        0.290968821999968,
+        0.29266865299996425
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 6,
+      "startup_s": 0.0010115400000358932,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.6546348710000984,
+      "p95_s": 0.6612248672000078,
+      "samples_s": [
+        0.6546348710000984,
+        0.639476736000006,
+        0.6619570889999977
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 6,
+      "startup_s": 0.0010115400000358932,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.22731784600000537,
+      "p95_s": 0.24187333180000223,
+      "samples_s": [
+        0.24349060800000188,
+        0.21030246800000896,
+        0.22731784600000537
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "thread",
+      "workers": 6,
+      "startup_s": 0.0010115400000358932,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.452445889000046,
+      "p95_s": 0.4565924868998309,
+      "samples_s": [
+        0.45705321999980697,
+        0.4412907189998805,
+        0.452445889000046
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 2,
+      "startup_s": 0.9224845129999721,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.08265424100000018,
+      "p95_s": 0.08943456470012734,
+      "samples_s": [
+        0.09018793400014147,
+        0.08008580599994275,
+        0.08265424100000018
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 2,
+      "startup_s": 0.9224845129999721,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.17572159000019383,
+      "p95_s": 0.17598841929989248,
+      "samples_s": [
+        0.17572159000019383,
+        0.17187544300008994,
+        0.176018066999859
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 2,
+      "startup_s": 0.9224845129999721,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.06506901800003106,
+      "p95_s": 0.06957544850006343,
+      "samples_s": [
+        0.06502415800014205,
+        0.06506901800003106,
+        0.07007616300006703
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 2,
+      "startup_s": 0.9224845129999721,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.13052974599986555,
+      "p95_s": 0.13130109279998123,
+      "samples_s": [
+        0.1313867979999941,
+        0.12853665900001943,
+        0.13052974599986555
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 4,
+      "startup_s": 0.9703798420000567,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.04988522300004661,
+      "p95_s": 0.12096872599991002,
+      "samples_s": [
+        0.12886689299989484,
+        0.047803295999983675,
+        0.04988522300004661
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 4,
+      "startup_s": 0.9703798420000567,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.11213163900015388,
+      "p95_s": 0.13183031070000198,
+      "samples_s": [
+        0.10896545699984017,
+        0.11213163900015388,
+        0.1340190519999851
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 4,
+      "startup_s": 0.9703798420000567,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.058042429999886735,
+      "p95_s": 0.0585376702999838,
+      "samples_s": [
+        0.058042429999886735,
+        0.05859269699999459,
+        0.04837231600004088
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 4,
+      "startup_s": 0.9703798420000567,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.10239875100000972,
+      "p95_s": 0.11279086649997225,
+      "samples_s": [
+        0.11394554599996809,
+        0.10239875100000972,
+        0.08920670299994526
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 6,
+      "startup_s": 1.0400385469999947,
+      "spin": 0.9999,
+      "rays": 5,
+      "median_s": 0.05915285900005074,
+      "p95_s": 0.10502468449999469,
+      "samples_s": [
+        0.11012155399998846,
+        0.05915285900005074,
+        0.04876808899985008
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 6,
+      "startup_s": 1.0400385469999947,
+      "spin": 0.9999,
+      "rays": 10,
+      "median_s": 0.10227899899996373,
+      "p95_s": 0.11389463930001967,
+      "samples_s": [
+        0.10227899899996373,
+        0.10102163400006248,
+        0.11518526600002588
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 6,
+      "startup_s": 1.0400385469999947,
+      "spin": 1.2,
+      "rays": 5,
+      "median_s": 0.048178237999991325,
+      "p95_s": 0.052518023600032396,
+      "samples_s": [
+        0.048178237999991325,
+        0.04766061999998783,
+        0.053000222000036956
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    },
+    {
+      "mode": "process",
+      "workers": 6,
+      "startup_s": 1.0400385469999947,
+      "spin": 1.2,
+      "rays": 10,
+      "median_s": 0.08333528100001786,
+      "p95_s": 0.08462827679986731,
+      "samples_s": [
+        0.06762051100008648,
+        0.08333528100001786,
+        0.08477194299985058
+      ],
+      "statuses": [
+        "ESCAPED",
+        "SINGULARITY_APPROACH",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED",
+        "ESCAPED"
+      ]
+    }
+  ]
+}

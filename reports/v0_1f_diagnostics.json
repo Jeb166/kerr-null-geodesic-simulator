@@ -1,0 +1,2125 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu": "x86_64",
+    "cpu_count": 9,
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "settings": {
+    "escape_radius": 8.0,
+    "max_affine_parameter": 20.0,
+    "rtol": 1e-10,
+    "atol": [
+      1e-11,
+      1e-12,
+      1e-12,
+      1e-12,
+      1e-12,
+      1e-12,
+      1e-12
+    ],
+    "max_step": 0.5
+  },
+  "trust_guard": "each of scaled null, Lz, Carter <= 1e-8; solver/chart validity",
+  "extremal": {
+    "outgoing": {
+      "spin": 1.0,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 0.41197070823267423,
+        "Lz": -0.5166436055646643,
+        "carter_constant": 0.383531516223005
+      },
+      "lambda_end": 9.894474866855058,
+      "max_scaled_null": 5.027424588365979e-14,
+      "max_scaled_Lz_drift": 9.447997939560082e-14,
+      "max_scaled_carter_drift": 4.440892098500626e-15,
+      "max_abs_Lz_drift": 9.447997939560082e-14,
+      "max_abs_carter_drift": 4.440892098500626e-15,
+      "minimum_abs_r": 3.9336072420913433,
+      "minimum_sigma": 15.496531870066928,
+      "horizons": [],
+      "transitions": [],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 22,
+      "rhs_evaluations": 332,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    "equatorial plunge": {
+      "spin": 1.0,
+      "status": "SINGULARITY_APPROACH",
+      "reliability": "COMPLETE",
+      "physical_outcome": "SINGULARITY_APPROACH",
+      "initial": {
+        "E": 1.2181048970379666,
+        "Lz": 0.22407245915442547,
+        "carter_constant": 0.0
+      },
+      "lambda_end": 2.2202354569895686,
+      "max_scaled_null": 2.1235149317121782e-12,
+      "max_scaled_Lz_drift": 4.126310404473088e-12,
+      "max_scaled_carter_drift": 0.0,
+      "max_abs_Lz_drift": 4.126310404473088e-12,
+      "max_abs_carter_drift": 0.0,
+      "minimum_abs_r": 0.0100000000002548,
+      "minimum_sigma": 0.000100000000005096,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.00814045195959
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.00814045195959,
+          "region": [
+            "EXTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 78,
+      "rhs_evaluations": 2072,
+      "message": "crossed sigma finite threshold (root localized with dense output)"
+    },
+    "inclined return": {
+      "spin": 1.0,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.21896047316242,
+        "Lz": 0.7173669844356676,
+        "carter_constant": 0.355048667415797
+      },
+      "lambda_end": 9.448081649765578,
+      "max_scaled_null": 2.6666775431879314e-11,
+      "max_scaled_Lz_drift": 1.762523460513421e-11,
+      "max_scaled_carter_drift": 5.332455102598298e-11,
+      "max_abs_Lz_drift": 1.762523460513421e-11,
+      "max_abs_carter_drift": 7.923306455381862e-11,
+      "minimum_abs_r": 0.2545748152681511,
+      "minimum_sigma": 0.35665204186813115,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.284009693882946
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.9140268619099303
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.284009693882946,
+          "region": [
+            "EXTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.302527050805448,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 3.9140268619099303,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    "inclined off-axis": {
+      "spin": 1.0,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2420391470054113,
+        "Lz": 0.43265443958141336,
+        "carter_constant": 0.9587498716594617
+      },
+      "lambda_end": 8.292191366959573,
+      "max_scaled_null": 1.2771111651007251e-11,
+      "max_scaled_Lz_drift": 2.0771107056560822e-11,
+      "max_scaled_carter_drift": 2.146727399555978e-11,
+      "max_abs_Lz_drift": 2.0771107056560822e-11,
+      "max_abs_carter_drift": 3.311673157924133e-11,
+      "minimum_abs_r": 0.2840132187968636,
+      "minimum_sigma": 0.38373242061002166,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 1.5145714390414107
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 2.8975678870510966
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 1.5145714390414107,
+          "region": [
+            "EXTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 2.4439450428948795,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.8975678870510966,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 72,
+      "rhs_evaluations": 1348,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    "near-axis disk": {
+      "spin": 1.0,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2641415477690305,
+        "Lz": 0.00065952263496062,
+        "carter_constant": -1.5713881308571822
+      },
+      "lambda_end": 8.702431818997985,
+      "max_scaled_null": 2.1014456732107602e-13,
+      "max_scaled_Lz_drift": 7.892991815694472e-16,
+      "max_scaled_carter_drift": 5.002087860378353e-15,
+      "max_abs_Lz_drift": 7.892991815694472e-16,
+      "max_abs_carter_drift": 7.993605777301127e-15,
+      "minimum_abs_r": 1.500193764139872e-14,
+      "minimum_sigma": 0.9834116402476106,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 1.5835052952898234
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 1.5835052952898234,
+          "region": [
+            "EXTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.3677140087742305,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 52,
+      "rhs_evaluations": 830,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    }
+  },
+  "spin_sweep": [
+    {
+      "spin": 0.95,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2190149690749195,
+        "Lz": 0.706310425341298,
+        "carter_constant": 0.3557905410189219
+      },
+      "lambda_end": 9.458713469921308,
+      "max_scaled_null": 2.5977533157704615e-11,
+      "max_scaled_Lz_drift": 6.852296507986466e-12,
+      "max_scaled_carter_drift": 3.326311490104392e-11,
+      "max_abs_Lz_drift": 6.852296507986466e-12,
+      "max_abs_carter_drift": 4.942890541315137e-11,
+      "minimum_abs_r": 0.2533967830892984,
+      "minimum_sigma": 0.3158258747490465,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.085141033079216
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.5502842940432258
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.7185095510107953
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 4.090886837417013
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.085141033079216,
+          "region": [
+            "EXTERIOR",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 2.5502842940432258,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.3043696836266854,
+          "region": [
+            "INNER",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 3.7185095510107953,
+          "region": [
+            "INNER",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 4.090886837417013,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 71,
+      "rhs_evaluations": 1345,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUB_EXTREMAL"
+    },
+    {
+      "spin": 0.99,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2189743487732925,
+        "Lz": 0.7151546474847744,
+        "carter_constant": 0.35520163358733814
+      },
+      "lambda_end": 9.449995033395897,
+      "max_scaled_null": 2.5699227798508266e-11,
+      "max_scaled_Lz_drift": 1.7176149391673334e-11,
+      "max_scaled_carter_drift": 2.289094853881273e-11,
+      "max_abs_Lz_drift": 1.7176149391673334e-11,
+      "max_abs_carter_drift": 3.4013625249684765e-11,
+      "minimum_abs_r": 0.2544263483762928,
+      "minimum_sigma": 0.34848913999626335,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.1885674532829467
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.3925761030772685
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.82943383966242
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.994823327151975
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.1885674532829467,
+          "region": [
+            "EXTERIOR",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 2.3925761030772685,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.3029636618848426,
+          "region": [
+            "INNER",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 3.82943383966242,
+          "region": [
+            "INNER",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 3.994823327151975,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1330,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUB_EXTREMAL"
+    },
+    {
+      "spin": 0.999,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2189619280931665,
+        "Lz": 0.7171457283953886,
+        "carter_constant": 0.3550640679621542
+      },
+      "lambda_end": 9.448268454752947,
+      "max_scaled_null": 2.6140875226636758e-11,
+      "max_scaled_Lz_drift": 1.701272456244851e-11,
+      "max_scaled_carter_drift": 5.3108710527016126e-11,
+      "max_abs_Lz_drift": 1.701272456244851e-11,
+      "max_abs_carter_drift": 7.891254316660934e-11,
+      "minimum_abs_r": 0.25456175455468183,
+      "minimum_sigma": 0.3558514673882105,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.252545670095921
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.3167778469834364
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.8877246278684003
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.939948177109037
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.252545670095921,
+          "region": [
+            "EXTERIOR",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 2.3167778469834364,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.302572089706685,
+          "region": [
+            "INNER",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 3.8877246278684003,
+          "region": [
+            "INNER",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 3.939948177109037,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUB_EXTREMAL"
+    },
+    {
+      "spin": 0.9999,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.218960619330018,
+        "Lz": 0.7173448586096591,
+        "carter_constant": 0.35505020851099656
+      },
+      "lambda_end": 9.448100285432396,
+      "max_scaled_null": 2.6614244570021663e-11,
+      "max_scaled_Lz_drift": 1.7564838472594602e-11,
+      "max_scaled_carter_drift": 5.330354220680231e-11,
+      "max_abs_Lz_drift": 1.7564838472594602e-11,
+      "max_abs_carter_drift": 7.920186728682665e-11,
+      "minimum_abs_r": 0.2545735267252067,
+      "minimum_sigma": 0.35657195106333417,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.273923285176452
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.2942264323029873
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.9057517505124566
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.922263869160557
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.273923285176452,
+          "region": [
+            "EXTERIOR",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 2.2942264323029873,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.302531568187913,
+          "region": [
+            "INNER",
+            "INNER"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 3.9057517505124566,
+          "region": [
+            "INNER",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 3.922263869160557,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUB_EXTREMAL"
+    },
+    {
+      "spin": 1.0,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.21896047316242,
+        "Lz": 0.7173669844356676,
+        "carter_constant": 0.355048667415797
+      },
+      "lambda_end": 9.448081649765578,
+      "max_scaled_null": 2.6666775431879314e-11,
+      "max_scaled_Lz_drift": 1.762523460513421e-11,
+      "max_scaled_carter_drift": 5.332455102598298e-11,
+      "max_abs_Lz_drift": 1.762523460513421e-11,
+      "max_abs_carter_drift": 7.923306455381862e-11,
+      "minimum_abs_r": 0.2545748152681511,
+      "minimum_sigma": 0.35665204186813115,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.284009693882946
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "OUTWARD",
+          "lambda": 3.9140268619099303
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.284009693882946,
+          "region": [
+            "EXTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.302527050805448,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTREMAL_INTERIOR"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 3.9140268619099303,
+          "region": [
+            "EXTREMAL_INTERIOR",
+            "EXTERIOR"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "EXTREMAL"
+    },
+    {
+      "spin": 1.0001,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.218960326844908,
+        "Lz": 0.7173891103109685,
+        "carter_constant": 0.35504712608933003
+      },
+      "lambda_end": 9.448063024049127,
+      "max_scaled_null": 2.6718625320824767e-11,
+      "max_scaled_Lz_drift": 1.7685519715371356e-11,
+      "max_scaled_carter_drift": 5.334626969892072e-11,
+      "max_abs_Lz_drift": 1.7685519715371356e-11,
+      "max_abs_carter_drift": 7.926531653268398e-11,
+      "minimum_abs_r": 0.2545760999239726,
+      "minimum_sigma": 0.3567321409789222,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.3025225304316184,
+          "region": [
+            "SUPER_EXTREMAL_POSITIVE",
+            "SUPER_EXTREMAL_POSITIVE"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUPER_EXTREMAL"
+    },
+    {
+      "spin": 1.001,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2189590032402196,
+        "Lz": 0.717588245405203,
+        "carter_constant": 0.3550332437426471
+      },
+      "lambda_end": 9.447895839816402,
+      "max_scaled_null": 2.7189124720841055e-11,
+      "max_scaled_Lz_drift": 1.8215540187327406e-11,
+      "max_scaled_carter_drift": 5.354827674452504e-11,
+      "max_abs_Lz_drift": 1.8215540187327406e-11,
+      "max_abs_carter_drift": 7.95652987939377e-11,
+      "minimum_abs_r": 0.254587487268454,
+      "minimum_sigma": 0.35745336353508794,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.30248171276668,
+          "region": [
+            "SUPER_EXTREMAL_POSITIVE",
+            "SUPER_EXTREMAL_POSITIVE"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUPER_EXTREMAL"
+    },
+    {
+      "spin": 1.01,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2189450983978503,
+        "Lz": 0.7195798143048127,
+        "carter_constant": 0.35489338855770913
+      },
+      "lambda_end": 9.446267780221028,
+      "max_scaled_null": 3.054114261582784e-11,
+      "max_scaled_Lz_drift": 2.0358159602551495e-11,
+      "max_scaled_carter_drift": 5.5070516528595964e-11,
+      "max_abs_Lz_drift": 2.0358159602551495e-11,
+      "max_abs_carter_drift": 8.182526878286467e-11,
+      "minimum_abs_r": 0.2546844017031306,
+      "minimum_sigma": 0.364716483839325,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.3020605155872738,
+          "region": [
+            "SUPER_EXTREMAL_POSITIVE",
+            "SUPER_EXTREMAL_POSITIVE"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1318,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUPER_EXTREMAL"
+    },
+    {
+      "spin": 1.05,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2188684933905338,
+        "Lz": 0.7284358619822602,
+        "carter_constant": 0.35424897226776686
+      },
+      "lambda_end": 9.439943769167451,
+      "max_scaled_null": 1.776933841022475e-11,
+      "max_scaled_Lz_drift": 3.2759350787614494e-12,
+      "max_scaled_carter_drift": 3.352687440593519e-11,
+      "max_abs_Lz_drift": 3.2759350787614494e-12,
+      "max_abs_carter_drift": 4.980887924332933e-11,
+      "minimum_abs_r": 0.2547752954953521,
+      "minimum_sigma": 0.397957281094218,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.2999299868718084,
+          "region": [
+            "SUPER_EXTREMAL_POSITIVE",
+            "SUPER_EXTREMAL_POSITIVE"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 70,
+      "rhs_evaluations": 1306,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "horizon_regime": "SUPER_EXTREMAL"
+    }
+  ],
+  "continuity": [
+    {
+      "spins": [
+        0.95,
+        0.99
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 0.003256069935120149,
+      "per_unit_spin": 0.08140174837800365
+    },
+    {
+      "spins": [
+        0.99,
+        0.999
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 0.0007436697604070461,
+      "per_unit_spin": 0.08262997337856061
+    },
+    {
+      "spins": [
+        0.999,
+        0.9999
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 7.459719856441971e-05,
+      "per_unit_spin": 0.08288577618268747
+    },
+    {
+      "spins": [
+        0.9999,
+        1.0
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 8.291176912397237e-06,
+      "per_unit_spin": 0.0829117691239815
+    },
+    {
+      "spins": [
+        1.0,
+        1.0001
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 8.291697160550732e-06,
+      "per_unit_spin": 0.08291697160551645
+    },
+    {
+      "spins": [
+        1.0001,
+        1.001
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 7.464869878444525e-05,
+      "per_unit_spin": 0.08294299864939274
+    },
+    {
+      "spins": [
+        1.001,
+        1.01
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 0.0007488198538978033,
+      "per_unit_spin": 0.08320220598864371
+    },
+    {
+      "spins": [
+        1.01,
+        1.05
+      ],
+      "common_lambda": [
+        0.0,
+        1.2
+      ],
+      "max_cartesian_distance": 0.003380962103196131,
+      "per_unit_spin": 0.0845240525799032
+    }
+  ],
+  "capture_escape": {
+    "0.95": {
+      "spin": 0.95,
+      "status": "SINGULARITY_APPROACH",
+      "reliability": "COMPLETE",
+      "physical_outcome": "SINGULARITY_APPROACH",
+      "initial": {
+        "E": 1.2140121506551278,
+        "Lz": 2.2104365394943253,
+        "carter_constant": 0.0
+      },
+      "lambda_end": 4.135449970820962,
+      "max_scaled_null": 3.9439225543413984e-11,
+      "max_scaled_Lz_drift": 3.4304641290106966e-11,
+      "max_scaled_carter_drift": 0.0,
+      "max_abs_Lz_drift": 7.582823258189819e-11,
+      "max_abs_carter_drift": 0.0,
+      "minimum_abs_r": 0.009999999999727444,
+      "minimum_sigma": 9.999999999454888e-05,
+      "horizons": [
+        {
+          "kind": "OUTER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 2.6488629182052077
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "direction": "INWARD",
+          "lambda": 3.928733005332249
+        }
+      ],
+      "transitions": [
+        {
+          "kind": "OUTER_HORIZON",
+          "lambda": 2.6488629182052077,
+          "region": [
+            "EXTERIOR",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "CHART_HANDOFF",
+          "lambda": 3.2744704648644096,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "BETWEEN_HORIZONS"
+          ],
+          "chart": [
+            "ingoing",
+            "outgoing"
+          ]
+        },
+        {
+          "kind": "INNER_HORIZON",
+          "lambda": 3.928733005332249,
+          "region": [
+            "BETWEEN_HORIZONS",
+            "INNER"
+          ],
+          "chart": [
+            "outgoing",
+            "outgoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing",
+        "outgoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 99,
+      "rhs_evaluations": 2389,
+      "message": "crossed sigma finite threshold (root localized with dense output)",
+      "refined": {
+        "spin": 0.95,
+        "status": "SINGULARITY_APPROACH",
+        "reliability": "COMPLETE",
+        "physical_outcome": "SINGULARITY_APPROACH",
+        "initial": {
+          "E": 1.2140121506551278,
+          "Lz": 2.2104365394943253,
+          "carter_constant": 0.0
+        },
+        "lambda_end": 4.1354499705568575,
+        "max_scaled_null": 4.3753207275252326e-12,
+        "max_scaled_Lz_drift": 4.384966915360906e-12,
+        "max_scaled_carter_drift": 0.0,
+        "max_abs_Lz_drift": 9.692691094187467e-12,
+        "max_abs_carter_drift": 0.0,
+        "minimum_abs_r": 0.01000000000020484,
+        "minimum_sigma": 0.0001000000000040968,
+        "horizons": [
+          {
+            "kind": "OUTER_HORIZON",
+            "direction": "INWARD",
+            "lambda": 2.648862918150125
+          },
+          {
+            "kind": "INNER_HORIZON",
+            "direction": "INWARD",
+            "lambda": 3.928733005058807
+          }
+        ],
+        "transitions": [
+          {
+            "kind": "OUTER_HORIZON",
+            "lambda": 2.648862918150125,
+            "region": [
+              "EXTERIOR",
+              "BETWEEN_HORIZONS"
+            ],
+            "chart": [
+              "ingoing",
+              "ingoing"
+            ]
+          },
+          {
+            "kind": "CHART_HANDOFF",
+            "lambda": 3.274470464944155,
+            "region": [
+              "BETWEEN_HORIZONS",
+              "BETWEEN_HORIZONS"
+            ],
+            "chart": [
+              "ingoing",
+              "outgoing"
+            ]
+          },
+          {
+            "kind": "INNER_HORIZON",
+            "lambda": 3.928733005058807,
+            "region": [
+              "BETWEEN_HORIZONS",
+              "INNER"
+            ],
+            "chart": [
+              "outgoing",
+              "outgoing"
+            ]
+          }
+        ],
+        "charts": [
+          "ingoing",
+          "outgoing"
+        ],
+        "branches": [
+          1
+        ],
+        "accepted_steps": 127,
+        "rhs_evaluations": 2977,
+        "message": "crossed sigma finite threshold (root localized with dense output)"
+      }
+    },
+    "1.05": {
+      "spin": 1.05,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2182232232969175,
+        "Lz": 2.2356812720124197,
+        "carter_constant": 0.0
+      },
+      "lambda_end": 10.621456519896478,
+      "max_scaled_null": 1.5745094270326818e-09,
+      "max_scaled_Lz_drift": 5.490549504057604e-10,
+      "max_scaled_carter_drift": 0.0,
+      "max_abs_Lz_drift": 1.2275118699278664e-09,
+      "max_abs_carter_drift": 0.0,
+      "minimum_abs_r": 1.0380989146222248,
+      "minimum_sigma": 1.0776493565398413,
+      "horizons": [],
+      "transitions": [],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1
+      ],
+      "accepted_steps": 96,
+      "rhs_evaluations": 1682,
+      "message": "crossed escape finite threshold (root localized with dense output)",
+      "refined": {
+        "spin": 1.05,
+        "status": "ESCAPED",
+        "reliability": "COMPLETE",
+        "physical_outcome": "ESCAPED",
+        "initial": {
+          "E": 1.2182232232969175,
+          "Lz": 2.2356812720124197,
+          "carter_constant": 0.0
+        },
+        "lambda_end": 10.62145653451873,
+        "max_scaled_null": 1.955117657047485e-10,
+        "max_scaled_Lz_drift": 6.93656590206742e-11,
+        "max_scaled_carter_drift": 0.0,
+        "max_abs_Lz_drift": 1.5507950479332067e-10,
+        "max_abs_carter_drift": 0.0,
+        "minimum_abs_r": 1.0380896906409842,
+        "minimum_sigma": 1.0776302058150944,
+        "horizons": [],
+        "transitions": [],
+        "charts": [
+          "ingoing"
+        ],
+        "branches": [
+          1
+        ],
+        "accepted_steps": 124,
+        "rhs_evaluations": 2066,
+        "message": "crossed escape finite threshold (root localized with dense output)"
+      }
+    }
+  },
+  "exploratory_loose_preview": {
+    "spin": 1.05,
+    "status": "DIAGNOSTIC_FAILURE",
+    "reliability": "UNRELIABLE",
+    "physical_outcome": null,
+    "initial": {
+      "E": 1.2182232232969175,
+      "Lz": 2.2356812720124197,
+      "carter_constant": 0.0
+    },
+    "lambda_end": 9.380831488284059,
+    "max_scaled_null": 1.0416025760213366e-08,
+    "max_scaled_Lz_drift": 4.5755198286060206e-09,
+    "max_scaled_carter_drift": 0.0,
+    "max_abs_Lz_drift": 1.0229403990535957e-08,
+    "max_abs_carter_drift": 0.0,
+    "minimum_abs_r": 1.0380858882235318,
+    "minimum_sigma": 1.0776223113288388,
+    "horizons": [],
+    "transitions": [],
+    "charts": [
+      "ingoing"
+    ],
+    "branches": [
+      1
+    ],
+    "accepted_steps": 72,
+    "rhs_evaluations": 1310,
+    "message": "null/Lz/Carter reliability gate exceeded: 1.042e-08/4.576e-09/0.000e+00"
+  },
+  "super_extremal": [
+    {
+      "spin": 1.0001,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.245717017923293,
+        "Lz": 0.01548030037165852,
+        "carter_constant": -0.8645770451063253
+      },
+      "lambda_end": 8.959443059219444,
+      "max_scaled_null": 2.300528948894587e-12,
+      "max_scaled_Lz_drift": 9.545662871257576e-14,
+      "max_scaled_carter_drift": 2.1017394600715387e-12,
+      "max_abs_Lz_drift": 9.545662871257576e-14,
+      "max_abs_carter_drift": 3.2615021794413224e-12,
+      "minimum_abs_r": 3.1923886163783187e-16,
+      "minimum_sigma": 0.5588766679160573,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.262431193718415,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 54,
+      "rhs_evaluations": 944,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    {
+      "spin": 1.001,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2456845712712228,
+        "Lz": 0.015489641441173483,
+        "carter_constant": -0.867235205839032
+      },
+      "lambda_end": 8.958894922792124,
+      "max_scaled_null": 2.2907929259363966e-12,
+      "max_scaled_Lz_drift": 9.231677922105774e-14,
+      "max_scaled_carter_drift": 2.105927154248569e-12,
+      "max_abs_Lz_drift": 9.231677922105774e-14,
+      "max_abs_carter_drift": 3.2678304506816858e-12,
+      "minimum_abs_r": 3.5411206839313345e-16,
+      "minimum_sigma": 0.5606014014090899,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.2627459811606303,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 54,
+      "rhs_evaluations": 944,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    {
+      "spin": 1.01,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2453589029835754,
+        "Lz": 0.015582476214730571,
+        "carter_constant": -0.8939353870650374
+      },
+      "lambda_end": 8.953811955781969,
+      "max_scaled_null": 4.322933414343602e-12,
+      "max_scaled_Lz_drift": 8.973377596532828e-14,
+      "max_scaled_carter_drift": 1.9361556646592787e-12,
+      "max_abs_Lz_drift": 8.973377596532828e-14,
+      "max_abs_carter_drift": 3.002820214703661e-12,
+      "minimum_abs_r": 2.2482497909614628e-13,
+      "minimum_sigma": 0.5776982722572659,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.265867312769266,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 54,
+      "rhs_evaluations": 956,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    {
+      "spin": 1.05,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2342231486964546,
+        "Lz": 0.023479261198433164,
+        "carter_constant": -0.6110674160161895
+      },
+      "lambda_end": 9.46716882596391,
+      "max_scaled_null": 4.091078650065159e-12,
+      "max_scaled_Lz_drift": 7.232166254755867e-13,
+      "max_scaled_carter_drift": 2.58718056175202e-12,
+      "max_abs_Lz_drift": 7.232166254755867e-13,
+      "max_abs_carter_drift": 3.941069692814381e-12,
+      "minimum_abs_r": 3.267835825009406e-16,
+      "minimum_sigma": 0.4071006262568234,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.221925423669021,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 62,
+      "rhs_evaluations": 1112,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    },
+    {
+      "spin": 1.2,
+      "status": "ESCAPED",
+      "reliability": "COMPLETE",
+      "physical_outcome": "ESCAPED",
+      "initial": {
+        "E": 1.2131544201506723,
+        "Lz": 0.038929167683859234,
+        "carter_constant": -0.3134261354263219
+      },
+      "lambda_end": 8.955481897979256,
+      "max_scaled_null": 4.8958318095948023e-11,
+      "max_scaled_Lz_drift": 2.224154194152561e-11,
+      "max_scaled_carter_drift": 1.3784099750870777e-10,
+      "max_abs_Lz_drift": 2.224154194152561e-11,
+      "max_abs_carter_drift": 2.0286661239765635e-10,
+      "minimum_abs_r": 5.555899011137916e-15,
+      "minimum_sigma": 0.22772332465426376,
+      "horizons": [],
+      "transitions": [
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.191546107255494,
+          "region": [
+            "POSITIVE_R",
+            "NEGATIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        },
+        {
+          "kind": "DISK_CROSSING",
+          "lambda": 2.4400866362702343,
+          "region": [
+            "NEGATIVE_R",
+            "POSITIVE_R"
+          ],
+          "chart": [
+            "ingoing",
+            "ingoing"
+          ]
+        }
+      ],
+      "charts": [
+        "ingoing"
+      ],
+      "branches": [
+        1,
+        -1
+      ],
+      "accepted_steps": 99,
+      "rhs_evaluations": 1739,
+      "message": "crossed escape finite threshold (root localized with dense output)"
+    }
+  ],
+  "super_extremal_near_axis": {
+    "spin": 1.2,
+    "status": "ESCAPED",
+    "reliability": "COMPLETE",
+    "physical_outcome": "ESCAPED",
+    "initial": {
+      "E": 1.2542051558230378,
+      "Lz": 0.0007296653270629608,
+      "carter_constant": -2.2379698677276876
+    },
+    "lambda_end": 8.771222822477483,
+    "max_scaled_null": 1.4187883932644252e-13,
+    "max_scaled_Lz_drift": 4.608618174584134e-15,
+    "max_scaled_carter_drift": 1.65692351613879e-13,
+    "max_abs_Lz_drift": 4.608618174584134e-15,
+    "max_abs_carter_drift": 3.708144902248023e-13,
+    "minimum_abs_r": 1.9545670487034056e-16,
+    "minimum_sigma": 1.4228460196817787,
+    "horizons": [],
+    "transitions": [
+      {
+        "kind": "DISK_CROSSING",
+        "lambda": 2.3882754085316344,
+        "region": [
+          "POSITIVE_R",
+          "NEGATIVE_R"
+        ],
+        "chart": [
+          "ingoing",
+          "ingoing"
+        ]
+      }
+    ],
+    "charts": [
+      "ingoing"
+    ],
+    "branches": [
+      1,
+      -1
+    ],
+    "accepted_steps": 34,
+    "rhs_evaluations": 560,
+    "message": "crossed escape finite threshold (root localized with dense output)"
+  },
+  "benchmark_ray_bank": [
+    {
+      "coordinate_position": [
+        4.0,
+        0.1,
+        0.5
+      ],
+      "normalized_local_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "normalized_local_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        4.0,
+        0.5,
+        0.6
+      ],
+      "normalized_local_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        0.15,
+        0.05,
+        3.0
+      ],
+      "normalized_local_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        0.8,
+        0.1,
+        3.0
+      ],
+      "normalized_local_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        3.0,
+        0.2,
+        1.0
+      ],
+      "normalized_local_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "normalized_local_direction": [
+        -0.8660254037844387,
+        0.5000000000000001,
+        0.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "normalized_local_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        1.3,
+        0.1,
+        3.0
+      ],
+      "normalized_local_direction": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "coordinate_position": [
+        4.0,
+        1.0,
+        0.6
+      ],
+      "normalized_local_direction": [
+        0.866578244826242,
+        0.24759378423606918,
+        0.433289122413121
+      ]
+    }
+  ],
+  "benchmark": [
+    {
+      "spin": 0.9999,
+      "rays": 1,
+      "repetitions": 7,
+      "median_s": 0.0923107550001987,
+      "p95_s": 0.11171315320002577,
+      "total_s": 0.6806963909998558,
+      "median_s_per_ray": 0.0923107550001987,
+      "observations_s": [
+        0.08749952900006974,
+        0.11152404399990701,
+        0.10936783199986166,
+        0.0923107550001987,
+        0.07693204099996365,
+        0.11179420000007667,
+        0.09126798999977837
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED"
+      ]
+    },
+    {
+      "spin": 0.9999,
+      "rays": 2,
+      "repetitions": 7,
+      "median_s": 0.5790997939998306,
+      "p95_s": 0.7362993336998898,
+      "total_s": 4.186654699999508,
+      "median_s_per_ray": 0.2895498969999153,
+      "observations_s": [
+        0.7511592129999372,
+        0.5796998800001347,
+        0.5002139250000255,
+        0.5453323960000489,
+        0.7016262819997792,
+        0.529523209999752,
+        0.5790997939998306
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "spin": 0.9999,
+      "rays": 5,
+      "repetitions": 7,
+      "median_s": 1.5642840939999587,
+      "p95_s": 2.1323185090000605,
+      "total_s": 11.415163390000544,
+      "median_s_per_ray": 0.3128568187999917,
+      "observations_s": [
+        2.0038904820003154,
+        1.5642840939999587,
+        1.7076610029998847,
+        2.1873590919999515,
+        1.376425116000064,
+        1.2236154920001354,
+        1.351928111000234
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED"
+      ]
+    },
+    {
+      "spin": 0.9999,
+      "rays": 10,
+      "repetitions": 7,
+      "median_s": 3.3140658489996895,
+      "p95_s": 3.6064986101001066,
+      "total_s": 22.21627471399961,
+      "median_s_per_ray": 0.33140658489996894,
+      "observations_s": [
+        3.3204595699999118,
+        3.41119659900005,
+        3.690199472000131,
+        3.3140658489996895,
+        3.01537211699997,
+        2.794556014000136,
+        2.6704250929997215
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED"
+      ]
+    },
+    {
+      "spin": 1.2,
+      "rays": 1,
+      "repetitions": 7,
+      "median_s": 0.06500681999978042,
+      "p95_s": 0.06699003270014145,
+      "total_s": 0.44916500599993014,
+      "median_s_per_ray": 0.06500681999978042,
+      "observations_s": [
+        0.06500681999978042,
+        0.061677705999954924,
+        0.06241214300007414,
+        0.06503627700021752,
+        0.06730665600025532,
+        0.061474158999772044,
+        0.06625124499987578
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED"
+      ]
+    },
+    {
+      "spin": 1.2,
+      "rays": 2,
+      "repetitions": 7,
+      "median_s": 0.5488701010003751,
+      "p95_s": 0.6149170271998172,
+      "total_s": 3.7795723140002337,
+      "median_s_per_ray": 0.27443505050018757,
+      "observations_s": [
+        0.6349904939997941,
+        0.5488701010003751,
+        0.5675127210001847,
+        0.4743217269997331,
+        0.5680789379998714,
+        0.45745684500025163,
+        0.5283414880000237
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH"
+      ]
+    },
+    {
+      "spin": 1.2,
+      "rays": 5,
+      "repetitions": 7,
+      "median_s": 1.184164564999719,
+      "p95_s": 1.5605502525997053,
+      "total_s": 8.811118162999719,
+      "median_s_per_ray": 0.2368329129999438,
+      "observations_s": [
+        1.128779250000207,
+        1.079056923999815,
+        1.184164564999719,
+        1.6416067389995987,
+        1.1560543330001565,
+        1.371418450999954,
+        1.250037901000269
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED"
+      ]
+    },
+    {
+      "spin": 1.2,
+      "rays": 10,
+      "repetitions": 7,
+      "median_s": 3.7573400579999543,
+      "p95_s": 4.629983206799807,
+      "total_s": 26.357294681999974,
+      "median_s_per_ray": 0.37573400579999544,
+      "observations_s": [
+        2.804863989000296,
+        4.371729690999928,
+        4.740663284999755,
+        3.7573400579999543,
+        4.100225208000211,
+        3.2811757079998642,
+        3.3012967429999662
+      ],
+      "outcomes": [
+        "COMPLETE:ESCAPED",
+        "COMPLETE:SINGULARITY_APPROACH",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED",
+        "COMPLETE:ESCAPED"
+      ]
+    }
+  ],
+  "profile": {
+    "spin": 0.9999,
+    "rays": 5,
+    "instrumented_total_s": 2.671350658,
+    "self_time_s_by_layer": {
+      "geometry/Hamiltonian": 1.2748690049999998,
+      "tetrad/launch": 0.0014454650000000002,
+      "integrator/events": 0.074689721,
+      "SciPy solver": 0.10516927999999999,
+      "NumPy": 0.6919924840000001,
+      "other": 0.5231847030000001
+    },
+    "top_cumulative": [
+      {
+        "file": "solving.py",
+        "line": 114,
+        "function": "solve_rays",
+        "calls": 1,
+        "self_s": 5.7267000000000006e-05,
+        "cumulative_s": 2.702962121
+      },
+      {
+        "file": "solving.py",
+        "line": 123,
+        "function": "<genexpr>",
+        "calls": 6,
+        "self_s": 0.000100829,
+        "cumulative_s": 2.702855426
+      },
+      {
+        "file": "integration.py",
+        "line": 127,
+        "function": "integrate_ray",
+        "calls": 5,
+        "self_s": 0.01308683,
+        "cumulative_s": 2.702754597
+      },
+      {
+        "file": "base.py",
+        "line": 156,
+        "function": "fun",
+        "calls": 5691,
+        "self_s": 0.006388071,
+        "cumulative_s": 2.20421617
+      },
+      {
+        "file": "base.py",
+        "line": 23,
+        "function": "fun_wrapped",
+        "calls": 5691,
+        "self_s": 0.011522199,
+        "cumulative_s": 2.197828099
+      },
+      {
+        "file": "integration.py",
+        "line": 185,
+        "function": "rhs",
+        "calls": 5697,
+        "self_s": 0.026822074,
+        "cumulative_s": 2.183993871
+      },
+      {
+        "file": "hamiltonian.py",
+        "line": 31,
+        "function": "null_geodesic_rhs",
+        "calls": 6171,
+        "self_s": 0.105535923,
+        "cumulative_s": 2.0130579120000003
+      },
+      {
+        "file": "base.py",
+        "line": 179,
+        "function": "step",
+        "calls": 289,
+        "self_s": 0.000675232,
+        "cumulative_s": 1.9271193260000001
+      },
+      {
+        "file": "rk.py",
+        "line": 111,
+        "function": "_step_impl",
+        "calls": 289,
+        "self_s": 0.008076971,
+        "cumulative_s": 1.926444094
+      },
+      {
+        "file": "rk.py",
+        "line": 14,
+        "function": "rk_step",
+        "calls": 401,
+        "self_s": 0.050563379000000006,
+        "cumulative_s": 1.903598515
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 180,
+        "function": "inverse_metric_derivatives",
+        "calls": 6171,
+        "self_s": 0.44361287400000005,
+        "cumulative_s": 1.322577286
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 142,
+        "function": "kerr_schild_fields",
+        "calls": 12665,
+        "self_s": 0.097495941,
+        "cumulative_s": 0.7016501810000001
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 104,
+        "function": "domain",
+        "calls": 20807,
+        "self_s": 0.15402000700000001,
+        "cumulative_s": 0.682877916
+      },
+      {
+        "file": "kerr_schild.py",
+        "line": 175,
+        "function": "inverse_metric",
+        "calls": 6483,
+        "self_s": 0.054840506000000004,
+        "cumulative_s": 0.487661067
+      }
+    ],
+    "results": [
+      "ESCAPED",
+      "SINGULARITY_APPROACH",
+      "ESCAPED",
+      "ESCAPED",
+      "ESCAPED"
+    ]
+  }
+}

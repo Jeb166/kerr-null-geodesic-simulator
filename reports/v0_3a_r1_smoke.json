@@ -1,0 +1,221 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "context": "EGL software OpenGL",
+  "cases": [
+    {
+      "spin": 0.0,
+      "regime": "SUB_EXTREMAL",
+      "horizon_triangles": 2304,
+      "singularity": "POINT",
+      "rays": [
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "SINGULARITY_APPROACH",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "SINGULARITY_APPROACH",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        }
+      ],
+      "non_background_pixels": 13134,
+      "framebuffer_alpha_opaque": true,
+      "debug_overlay_changed_pixels": 1519
+    },
+    {
+      "spin": 0.7,
+      "regime": "SUB_EXTREMAL",
+      "horizon_triangles": 2304,
+      "singularity": "RING",
+      "rays": [
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing",
+            "outgoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing",
+            "outgoing"
+          ],
+          "branches": [
+            -1,
+            1
+          ]
+        }
+      ],
+      "non_background_pixels": 12102,
+      "framebuffer_alpha_opaque": true,
+      "debug_overlay_changed_pixels": 1865
+    },
+    {
+      "spin": 1.0,
+      "regime": "EXTREMAL",
+      "horizon_triangles": 2304,
+      "singularity": "RING",
+      "rays": [
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing",
+            "outgoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            -1,
+            1
+          ]
+        }
+      ],
+      "non_background_pixels": 7321,
+      "framebuffer_alpha_opaque": true,
+      "debug_overlay_changed_pixels": 1660
+    },
+    {
+      "spin": 1.05,
+      "regime": "SUPER_EXTREMAL",
+      "horizon_triangles": 0,
+      "singularity": "RING",
+      "rays": [
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing",
+            "outgoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            -1,
+            1
+          ]
+        }
+      ],
+      "non_background_pixels": 4538,
+      "framebuffer_alpha_opaque": true,
+      "debug_overlay_changed_pixels": 1506
+    },
+    {
+      "spin": 1.2,
+      "regime": "SUPER_EXTREMAL",
+      "horizon_triangles": 0,
+      "singularity": "RING",
+      "rays": [
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing",
+            "outgoing"
+          ],
+          "branches": [
+            1
+          ]
+        },
+        {
+          "fate": "ESCAPED",
+          "reliability": "COMPLETE",
+          "charts": [
+            "ingoing"
+          ],
+          "branches": [
+            -1,
+            1
+          ]
+        }
+      ],
+      "non_background_pixels": 4810,
+      "framebuffer_alpha_opaque": true,
+      "debug_overlay_changed_pixels": 1650
+    }
+  ]
+}
